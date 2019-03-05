@@ -1,0 +1,114 @@
+body {
+    background-color: #efefef;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+.quiz {
+    background-color: #fff;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.quiz__header {
+    width: 100%;
+}
+
+.quiz__header h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.quiz__questions {
+    width: 100%;
+}
+
+.quiz__questions img {
+    display: block;
+    height: 400px;
+}
+
+.questions__paragraph {
+    font-size: 1.4rem !important;
+}
+
+.quiz__questions p {
+    line-height: 30px;
+    padding-left: 10px;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.quiz__list {
+    list-style: none;
+    padding: 5px 0 5px 0;
+    margin: 5px;
+}
+
+.quiz__list li {
+    margin-bottom: 3px;
+    width: auto;
+    padding-right: 20px;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+.quiz__buttons {
+    width: 100%;
+    height: auto;
+    padding: 5px 0 10px 10px;
+}
+
+.quiz__popups {
+    padding-left: 10px;
+}
+
+.button {
+    background-color: #bebebe;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.button a {
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 9px 20px;
+    line-height: 35px;
+}
+
+.button a:hover {
+    background: rgba(255,255,255, 0.3);
+    transition: 0.3s ease;
+}
+
+.button--finish {
+    background-color: #9a3d37;
+}
+
+.button--check {
+    background-color: #22792e;
+}
+
+.button--next, .button--restart {
+    background-color: #225c79;
+}
+
+.correct {
+    color: #00bb00
+}
+
+.wrong {
+    color: red;
+}
